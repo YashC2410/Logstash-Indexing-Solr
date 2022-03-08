@@ -1,0 +1,962 @@
+2022-03-08 16:14:47.023  INFO 4940 --- [main] c.s.l.SpringBootLogstashApplication      : Starting SpringBootLogstashApplication using Java 1.8.0_281 on DESKTOP-SQ99E4A with PID 4940 (C:\Users\user\eclipse-workspace\spring-boot-logstash\target\classes started by user in C:\Users\user\eclipse-workspace\spring-boot-logstash)
+2022-03-08 16:14:47.029  INFO 4940 --- [main] c.s.l.SpringBootLogstashApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-03-08 16:14:48.567  INFO 4940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-08 16:14:48.590  INFO 4940 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-08 16:14:48.593  INFO 4940 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-08 16:14:48.780  INFO 4940 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-08 16:14:48.781  INFO 4940 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1651 ms
+2022-03-08 16:14:49.793  INFO 4940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-08 16:14:49.805  INFO 4940 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 16:14:49.806  WARN 4940 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 16:14:49.806 ERROR 4940 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 16:14:49.806 ERROR 4940 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 16:14:49.807 ERROR 4940 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 16:14:49.810  INFO 4940 --- [main] c.s.l.SpringBootLogstashApplication      : Started SpringBootLogstashApplication in 3.422 seconds (JVM running for 5.048)
+2022-03-08 16:14:51.812  INFO 4940 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 16:14:51.819  WARN 4940 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 16:14:51.833 ERROR 4940 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 16:14:51.834 ERROR 4940 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 16:14:51.838 ERROR 4940 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 16:14:53.847  INFO 4940 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 16:14:53.848  WARN 4940 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 16:14:53.849 ERROR 4940 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 16:14:53.849 ERROR 4940 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 16:14:53.849 ERROR 4940 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 16:14:55.861  INFO 4940 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 16:14:55.861  WARN 4940 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 16:14:55.862 ERROR 4940 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 16:14:55.862 ERROR 4940 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 16:14:55.862 ERROR 4940 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 16:14:57.649  INFO 4940 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-03-08 16:14:57.878  INFO 4940 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 16:14:57.878  WARN 4940 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 16:14:57.878 ERROR 4940 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 16:14:57.879 ERROR 4940 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 16:14:57.879 ERROR 4940 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 16:39:51.091  INFO 9668 --- [main] c.s.l.SpringBootLogstashApplication      : Starting SpringBootLogstashApplication using Java 1.8.0_281 on DESKTOP-SQ99E4A with PID 9668 (C:\Users\user\eclipse-workspace\spring-boot-logstash\target\classes started by user in C:\Users\user\eclipse-workspace\spring-boot-logstash)
+2022-03-08 16:39:51.097  INFO 9668 --- [main] c.s.l.SpringBootLogstashApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-03-08 16:39:53.542  INFO 9668 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-08 16:39:53.569  INFO 9668 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-08 16:39:53.570  INFO 9668 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-08 16:39:53.723  INFO 9668 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-08 16:39:53.724  INFO 9668 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2507 ms
+2022-03-08 16:39:55.042  INFO 9668 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-08 16:39:55.055  INFO 9668 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 16:39:55.055  WARN 9668 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 16:39:55.055 ERROR 9668 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 16:39:55.055 ERROR 9668 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 16:39:55.055 ERROR 9668 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 16:39:55.059  INFO 9668 --- [main] c.s.l.SpringBootLogstashApplication      : Started SpringBootLogstashApplication in 4.674 seconds (JVM running for 5.964)
+2022-03-08 16:39:57.078  INFO 9668 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 16:39:57.082  WARN 9668 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 16:39:57.085 ERROR 9668 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 16:39:57.085 ERROR 9668 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 16:39:57.085 ERROR 9668 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 16:39:59.099  INFO 9668 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 16:39:59.100  WARN 9668 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 16:39:59.100 ERROR 9668 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 16:39:59.100 ERROR 9668 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 16:39:59.100 ERROR 9668 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 16:40:00.946  INFO 9668 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-03-08 16:40:01.103  INFO 9668 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 16:40:01.104  WARN 9668 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 16:40:01.104 ERROR 9668 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 16:40:01.104 ERROR 9668 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 16:40:01.104 ERROR 9668 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 16:48:13.678  INFO 6968 --- [main] c.s.l.SpringBootLogstashApplication      : Starting SpringBootLogstashApplication using Java 1.8.0_281 on DESKTOP-SQ99E4A with PID 6968 (C:\Users\user\eclipse-workspace\spring-boot-logstash\target\classes started by user in C:\Users\user\eclipse-workspace\spring-boot-logstash)
+2022-03-08 16:48:13.682  INFO 6968 --- [main] c.s.l.SpringBootLogstashApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-03-08 16:48:14.866  INFO 6968 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-08 16:48:14.893  INFO 6968 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-08 16:48:14.897  INFO 6968 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-08 16:48:15.124  INFO 6968 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-08 16:48:15.125  INFO 6968 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1381 ms
+2022-03-08 16:48:16.048  INFO 6968 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-08 16:48:16.090  INFO 6968 --- [main] c.s.l.SpringBootLogstashApplication      : Started SpringBootLogstashApplication in 2.952 seconds (JVM running for 3.865)
+2022-03-08 16:48:16.097  INFO 6968 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 16:48:16.103  WARN 6968 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 16:48:16.107 ERROR 6968 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 16:48:16.109 ERROR 6968 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 16:48:16.111 ERROR 6968 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 16:48:18.130  INFO 6968 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 16:48:18.132  WARN 6968 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 16:48:18.133 ERROR 6968 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 16:48:18.134 ERROR 6968 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 16:48:18.135 ERROR 6968 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 16:48:20.140  INFO 6968 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 16:48:20.140  WARN 6968 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 16:48:20.140 ERROR 6968 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 16:48:20.140 ERROR 6968 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 16:48:20.141 ERROR 6968 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 16:48:21.409  INFO 6968 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-03-08 17:00:12.938  INFO 15048 --- [main] c.s.l.SpringBootLogstashApplication      : Starting SpringBootLogstashApplication using Java 1.8.0_281 on DESKTOP-SQ99E4A with PID 15048 (C:\Users\user\eclipse-workspace\spring-boot-logstash\target\classes started by user in C:\Users\user\eclipse-workspace\spring-boot-logstash)
+2022-03-08 17:00:12.948  INFO 15048 --- [main] c.s.l.SpringBootLogstashApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-03-08 17:00:16.442  INFO 15048 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-08 17:00:16.480  INFO 15048 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-08 17:00:16.485  INFO 15048 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-08 17:00:16.781  INFO 15048 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-08 17:00:16.784  INFO 15048 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3592 ms
+2022-03-08 17:00:17.646  INFO 15048 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-08 17:00:17.661  INFO 15048 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 17:00:17.662  WARN 15048 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 17:00:17.662 ERROR 15048 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 17:00:17.662 ERROR 15048 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 17:00:17.662 ERROR 15048 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 17:00:17.668  INFO 15048 --- [main] c.s.l.SpringBootLogstashApplication      : Started SpringBootLogstashApplication in 5.521 seconds (JVM running for 6.739)
+2022-03-08 17:00:19.664  INFO 15048 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 17:00:19.664  WARN 15048 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 17:00:19.665 ERROR 15048 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 17:00:19.665 ERROR 15048 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 17:00:19.665 ERROR 15048 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 17:00:21.679  INFO 15048 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 17:00:21.682  WARN 15048 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 17:00:21.683 ERROR 15048 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 17:00:21.683 ERROR 15048 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 17:00:21.685 ERROR 15048 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 17:00:22.765  INFO 15048 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-03-08 17:07:10.013  INFO 14408 --- [main] c.s.l.SpringBootLogstashApplication      : Starting SpringBootLogstashApplication using Java 1.8.0_281 on DESKTOP-SQ99E4A with PID 14408 (C:\Users\user\eclipse-workspace\spring-boot-logstash\target\classes started by user in C:\Users\user\eclipse-workspace\spring-boot-logstash)
+2022-03-08 17:07:10.030  INFO 14408 --- [main] c.s.l.SpringBootLogstashApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-03-08 17:07:13.483  INFO 14408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-08 17:07:13.544  INFO 14408 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-08 17:07:13.551  INFO 14408 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-08 17:07:13.873  INFO 14408 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-08 17:07:13.874  INFO 14408 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3717 ms
+2022-03-08 17:07:15.593  INFO 14408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-08 17:07:15.609  INFO 14408 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 17:07:15.610  WARN 14408 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 17:07:15.611 ERROR 14408 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 17:07:15.611 ERROR 14408 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 17:07:15.611 ERROR 14408 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 17:07:15.615  INFO 14408 --- [main] c.s.l.SpringBootLogstashApplication      : Started SpringBootLogstashApplication in 6.38 seconds (JVM running for 8.091)
+2022-03-08 17:07:17.616  INFO 14408 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 17:07:17.616  WARN 14408 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 17:07:17.617 ERROR 14408 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 17:07:17.617 ERROR 14408 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 17:07:17.617 ERROR 14408 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 17:07:19.576  INFO 14408 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-03-08 17:07:19.618  INFO 14408 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 17:07:19.618  WARN 14408 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 17:07:19.618 ERROR 14408 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 17:07:19.619 ERROR 14408 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 17:07:19.619 ERROR 14408 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 17:09:53.130  INFO 13480 --- [main] c.s.l.SpringBootLogstashApplication      : Starting SpringBootLogstashApplication using Java 1.8.0_281 on DESKTOP-SQ99E4A with PID 13480 (C:\Users\user\eclipse-workspace\spring-boot-logstash\target\classes started by user in C:\Users\user\eclipse-workspace\spring-boot-logstash)
+2022-03-08 17:09:53.134  INFO 13480 --- [main] c.s.l.SpringBootLogstashApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-03-08 17:09:56.470  INFO 13480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-08 17:09:56.545  INFO 13480 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-08 17:09:56.562  INFO 13480 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-08 17:09:57.399  INFO 13480 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-08 17:09:57.401  INFO 13480 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4152 ms
+2022-03-08 17:09:58.588  INFO 13480 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-08 17:09:58.599  INFO 13480 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 17:09:58.599  WARN 13480 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 17:09:58.600 ERROR 13480 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 17:09:58.600 ERROR 13480 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 17:09:58.600 ERROR 13480 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 17:09:58.603  INFO 13480 --- [main] c.s.l.SpringBootLogstashApplication      : Started SpringBootLogstashApplication in 6.117 seconds (JVM running for 8.307)
+2022-03-08 17:10:00.611  INFO 13480 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 17:10:00.611  WARN 13480 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 17:10:00.612 ERROR 13480 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 17:10:00.612 ERROR 13480 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 17:10:00.612 ERROR 13480 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 17:10:02.628  INFO 13480 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 17:10:02.628  WARN 13480 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 17:10:02.629 ERROR 13480 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 17:10:02.629 ERROR 13480 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 17:10:02.629 ERROR 13480 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 17:10:02.990  INFO 13480 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-03-08 17:28:27.787  INFO 15128 --- [main] c.s.l.SpringBootLogstashApplication      : Starting SpringBootLogstashApplication using Java 1.8.0_281 on DESKTOP-SQ99E4A with PID 15128 (C:\Users\user\eclipse-workspace\spring-boot-logstash\target\classes started by user in C:\Users\user\eclipse-workspace\spring-boot-logstash)
+2022-03-08 17:28:27.792  INFO 15128 --- [main] c.s.l.SpringBootLogstashApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-03-08 17:28:29.494  INFO 15128 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-08 17:28:29.533  INFO 15128 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-08 17:28:29.535  INFO 15128 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-08 17:28:29.766  INFO 15128 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-08 17:28:29.769  INFO 15128 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1898 ms
+2022-03-08 17:28:30.797  INFO 15128 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-08 17:28:30.816  INFO 15128 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 17:28:30.816  WARN 15128 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 17:28:30.816 ERROR 15128 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 17:28:30.817 ERROR 15128 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 17:28:30.817 ERROR 15128 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 17:28:30.821  INFO 15128 --- [main] c.s.l.SpringBootLogstashApplication      : Started SpringBootLogstashApplication in 3.645 seconds (JVM running for 5.061)
+2022-03-08 17:28:30.825 ERROR 15128 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.ArithmeticException: Error
+	at com.springboot.logstash.Schedular.addinglogs(Schedular.java:21) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.16.jar:5.3.16]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_281]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_281]
+
+2022-03-08 17:28:32.840  INFO 15128 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 17:28:32.840  WARN 15128 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 17:28:32.841 ERROR 15128 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 17:28:32.841 ERROR 15128 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 17:28:32.841 ERROR 15128 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 17:28:32.841 ERROR 15128 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.ArithmeticException: Error
+	at com.springboot.logstash.Schedular.addinglogs(Schedular.java:21) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.16.jar:5.3.16]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_281]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_281]
+
+2022-03-08 17:28:34.850  INFO 15128 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 17:28:34.852  WARN 15128 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 17:28:34.853 ERROR 15128 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 17:28:34.856 ERROR 15128 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 17:28:34.857 ERROR 15128 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 17:28:34.861 ERROR 15128 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.ArithmeticException: Error
+	at com.springboot.logstash.Schedular.addinglogs(Schedular.java:21) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.16.jar:5.3.16]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_281]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_281]
+
+2022-03-08 17:28:35.259  INFO 15128 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-03-08 17:32:46.547  INFO 1688 --- [main] c.s.l.SpringBootLogstashApplication      : Starting SpringBootLogstashApplication using Java 1.8.0_281 on DESKTOP-SQ99E4A with PID 1688 (C:\Users\user\eclipse-workspace\spring-boot-logstash\target\classes started by user in C:\Users\user\eclipse-workspace\spring-boot-logstash)
+2022-03-08 17:32:46.550  INFO 1688 --- [main] c.s.l.SpringBootLogstashApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-03-08 17:32:47.601  INFO 1688 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-08 17:32:47.614  INFO 1688 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-08 17:32:47.615  INFO 1688 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-08 17:32:47.699  INFO 1688 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-08 17:32:47.700  INFO 1688 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1075 ms
+2022-03-08 17:32:48.118  INFO 1688 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-08 17:32:48.126  INFO 1688 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 17:32:48.127  WARN 1688 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 17:32:48.127 ERROR 1688 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 17:32:48.127 ERROR 1688 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 17:32:48.127 ERROR 1688 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 17:32:48.130  INFO 1688 --- [main] c.s.l.SpringBootLogstashApplication      : Started SpringBootLogstashApplication in 2.119 seconds (JVM running for 3.49)
+2022-03-08 17:32:48.132 ERROR 1688 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.ArithmeticException: / by zero
+	at com.springboot.logstash.Schedular.addinglogs(Schedular.java:21) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.16.jar:5.3.16]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_281]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_281]
+
+2022-03-08 17:32:50.137  INFO 1688 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 17:32:50.137  WARN 1688 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 17:32:50.137 ERROR 1688 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 17:32:50.138 ERROR 1688 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 17:32:50.138 ERROR 1688 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 17:32:50.138 ERROR 1688 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.ArithmeticException: / by zero
+	at com.springboot.logstash.Schedular.addinglogs(Schedular.java:21) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.16.jar:5.3.16]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_281]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_281]
+
+2022-03-08 17:32:52.141  INFO 1688 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 17:32:52.143  WARN 1688 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 17:32:52.143 ERROR 1688 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 17:32:52.143 ERROR 1688 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 17:32:52.144 ERROR 1688 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 17:32:52.144 ERROR 1688 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.ArithmeticException: / by zero
+	at com.springboot.logstash.Schedular.addinglogs(Schedular.java:21) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.16.jar:5.3.16]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_281]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_281]
+
+2022-03-08 17:32:54.156  INFO 1688 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 17:32:54.157  WARN 1688 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 17:32:54.157 ERROR 1688 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 17:32:54.157 ERROR 1688 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 17:32:54.157 ERROR 1688 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 17:32:54.159 ERROR 1688 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.ArithmeticException: / by zero
+	at com.springboot.logstash.Schedular.addinglogs(Schedular.java:21) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.16.jar:5.3.16]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_281]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_281]
+
+2022-03-08 17:32:56.166  INFO 1688 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 17:32:56.166  WARN 1688 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 17:32:56.167 ERROR 1688 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 17:32:56.167 ERROR 1688 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 17:32:56.167 ERROR 1688 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 17:32:56.167 ERROR 1688 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.ArithmeticException: / by zero
+	at com.springboot.logstash.Schedular.addinglogs(Schedular.java:21) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.16.jar:5.3.16]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_281]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_281]
+
+2022-03-08 17:32:56.749  INFO 1688 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-03-08 17:43:23.033  INFO 196 --- [main] c.s.l.SpringBootLogstashApplication      : Starting SpringBootLogstashApplication using Java 1.8.0_281 on DESKTOP-SQ99E4A with PID 196 (C:\Users\user\eclipse-workspace\spring-boot-logstash\target\classes started by user in C:\Users\user\eclipse-workspace\spring-boot-logstash)
+2022-03-08 17:43:23.040  INFO 196 --- [main] c.s.l.SpringBootLogstashApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-03-08 17:43:24.924  INFO 196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-08 17:43:24.946  INFO 196 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-08 17:43:24.947  INFO 196 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-08 17:43:25.114  INFO 196 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-08 17:43:25.114  INFO 196 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1955 ms
+2022-03-08 17:43:25.694  INFO 196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-08 17:43:25.705  INFO 196 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 17:43:25.705  WARN 196 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 17:43:25.705 ERROR 196 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 17:43:25.705 ERROR 196 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 17:43:25.705 ERROR 196 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 17:43:25.709  INFO 196 --- [main] c.s.l.SpringBootLogstashApplication      : Started SpringBootLogstashApplication in 3.699 seconds (JVM running for 4.948)
+2022-03-08 17:43:25.710 ERROR 196 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.ArithmeticException: / by zero
+	at com.springboot.logstash.Schedular.addinglogs(Schedular.java:21) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.16.jar:5.3.16]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_281]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_281]
+
+2022-03-08 17:43:27.753  INFO 196 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 17:43:27.756  WARN 196 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 17:43:27.758 ERROR 196 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 17:43:27.764 ERROR 196 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 17:43:27.777 ERROR 196 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 17:43:27.780 ERROR 196 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.ArithmeticException: / by zero
+	at com.springboot.logstash.Schedular.addinglogs(Schedular.java:21) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.16.jar:5.3.16]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_281]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_281]
+
+2022-03-08 17:43:29.795  INFO 196 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 17:43:29.795  WARN 196 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 17:43:29.795 ERROR 196 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 17:43:29.796 ERROR 196 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 17:43:29.796 ERROR 196 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 17:43:29.796 ERROR 196 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.ArithmeticException: / by zero
+	at com.springboot.logstash.Schedular.addinglogs(Schedular.java:21) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.16.jar:5.3.16]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_281]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_281]
+
+2022-03-08 17:43:31.814  INFO 196 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 17:43:31.842  WARN 196 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 17:43:31.844 ERROR 196 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 17:43:31.844 ERROR 196 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 17:43:31.844 ERROR 196 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 17:43:31.845 ERROR 196 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.ArithmeticException: / by zero
+	at com.springboot.logstash.Schedular.addinglogs(Schedular.java:21) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.16.jar:5.3.16]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_281]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_281]
+
+2022-03-08 17:43:32.446  INFO 196 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-03-08 17:53:16.997  INFO 596 --- [main] c.s.l.SpringBootLogstashApplication      : Starting SpringBootLogstashApplication using Java 1.8.0_281 on DESKTOP-SQ99E4A with PID 596 (C:\Users\user\eclipse-workspace\spring-boot-logstash\target\classes started by user in C:\Users\user\eclipse-workspace\spring-boot-logstash)
+2022-03-08 17:53:17.002  INFO 596 --- [main] c.s.l.SpringBootLogstashApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-03-08 17:53:19.262  INFO 596 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-08 17:53:19.328  INFO 596 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-08 17:53:19.335  INFO 596 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-08 17:53:20.050  INFO 596 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-08 17:53:20.055  INFO 596 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2984 ms
+2022-03-08 17:53:22.744  INFO 596 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-08 17:53:22.756  INFO 596 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 17:53:22.759  WARN 596 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 17:53:22.760 ERROR 596 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 17:53:22.761 ERROR 596 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 17:53:22.761 ERROR 596 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 17:53:22.767  INFO 596 --- [main] c.s.l.SpringBootLogstashApplication      : Started SpringBootLogstashApplication in 6.352 seconds (JVM running for 7.203)
+2022-03-08 17:53:22.770 ERROR 596 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.ArithmeticException: / by zero
+	at com.springboot.logstash.Schedular.addinglogs(Schedular.java:21) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.16.jar:5.3.16]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_281]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_281]
+
+2022-03-08 17:53:24.775  INFO 596 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 17:53:24.777  WARN 596 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 17:53:24.778 ERROR 596 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 17:53:24.778 ERROR 596 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 17:53:24.779 ERROR 596 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 17:53:24.780 ERROR 596 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.ArithmeticException: / by zero
+	at com.springboot.logstash.Schedular.addinglogs(Schedular.java:21) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.16.jar:5.3.16]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_281]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_281]
+
+2022-03-08 17:53:26.793  INFO 596 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 17:53:26.793  WARN 596 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 17:53:26.793 ERROR 596 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 17:53:26.793 ERROR 596 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 17:53:26.794 ERROR 596 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 17:53:26.794 ERROR 596 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.ArithmeticException: / by zero
+	at com.springboot.logstash.Schedular.addinglogs(Schedular.java:21) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.16.jar:5.3.16]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_281]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_281]
+
+2022-03-08 17:53:28.798  INFO 596 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 17:53:28.799  WARN 596 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 17:53:28.799 ERROR 596 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 17:53:28.800 ERROR 596 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 17:53:28.800 ERROR 596 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 17:53:28.803 ERROR 596 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.ArithmeticException: / by zero
+	at com.springboot.logstash.Schedular.addinglogs(Schedular.java:21) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.16.jar:5.3.16]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_281]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_281]
+
+2022-03-08 17:53:28.842  INFO 596 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-03-08 17:55:14.302  INFO 6164 --- [main] c.s.l.SpringBootLogstashApplication      : Starting SpringBootLogstashApplication using Java 1.8.0_281 on DESKTOP-SQ99E4A with PID 6164 (C:\Users\user\eclipse-workspace\spring-boot-logstash\target\classes started by user in C:\Users\user\eclipse-workspace\spring-boot-logstash)
+2022-03-08 17:55:14.307  INFO 6164 --- [main] c.s.l.SpringBootLogstashApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-03-08 17:55:16.527  INFO 6164 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-08 17:55:16.545  INFO 6164 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-08 17:55:16.546  INFO 6164 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-08 17:55:16.630  INFO 6164 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-08 17:55:16.631  INFO 6164 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2253 ms
+2022-03-08 17:55:17.054  INFO 6164 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-08 17:55:17.064  INFO 6164 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 17:55:17.064  WARN 6164 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 17:55:17.064 ERROR 6164 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 17:55:17.064 ERROR 6164 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 17:55:17.065 ERROR 6164 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 17:55:17.068  INFO 6164 --- [main] c.s.l.SpringBootLogstashApplication      : Started SpringBootLogstashApplication in 3.581 seconds (JVM running for 4.475)
+2022-03-08 17:55:17.070 ERROR 6164 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.ArithmeticException: / by zero
+	at com.springboot.logstash.Schedular.addinglogs(Schedular.java:21) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.16.jar:5.3.16]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_281]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_281]
+
+2022-03-08 17:55:19.079  INFO 6164 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 17:55:19.094  WARN 6164 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 17:55:19.098 ERROR 6164 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 17:55:19.100 ERROR 6164 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 17:55:19.100 ERROR 6164 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 17:55:19.101 ERROR 6164 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.ArithmeticException: / by zero
+	at com.springboot.logstash.Schedular.addinglogs(Schedular.java:21) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.16.jar:5.3.16]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_281]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_281]
+
+2022-03-08 17:55:21.209  INFO 6164 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 17:55:21.257  WARN 6164 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 17:55:21.257 ERROR 6164 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 17:55:21.258 ERROR 6164 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 17:55:21.259 ERROR 6164 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 17:55:21.263 ERROR 6164 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.ArithmeticException: / by zero
+	at com.springboot.logstash.Schedular.addinglogs(Schedular.java:21) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.16.jar:5.3.16]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_281]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_281]
+
+2022-03-08 17:55:22.859  INFO 6164 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-03-08 18:59:42.763  INFO 8276 --- [main] c.s.l.SpringBootLogstashApplication      : Starting SpringBootLogstashApplication using Java 1.8.0_281 on DESKTOP-SQ99E4A with PID 8276 (C:\Users\user\eclipse-workspace\spring-boot-logstash\target\classes started by user in C:\Users\user\eclipse-workspace\spring-boot-logstash)
+2022-03-08 18:59:42.768  INFO 8276 --- [main] c.s.l.SpringBootLogstashApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-03-08 18:59:47.486  INFO 8276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-08 18:59:47.520  INFO 8276 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-08 18:59:47.521  INFO 8276 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-08 18:59:47.771  INFO 8276 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-08 18:59:47.772  INFO 8276 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4866 ms
+2022-03-08 18:59:49.348  INFO 8276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-08 18:59:49.367  INFO 8276 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 18:59:49.372  WARN 8276 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 18:59:49.373 ERROR 8276 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 18:59:49.374  INFO 8276 --- [main] c.s.l.SpringBootLogstashApplication      : Started SpringBootLogstashApplication in 7.46 seconds (JVM running for 8.671)
+2022-03-08 18:59:49.374 ERROR 8276 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 18:59:49.375 ERROR 8276 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 18:59:49.384 ERROR 8276 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.ArithmeticException: / by zero
+	at com.springboot.logstash.Schedular.addinglogs(Schedular.java:21) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.16.jar:5.3.16]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_281]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_281]
+
+2022-03-08 18:59:51.403  INFO 8276 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 18:59:51.409  WARN 8276 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 18:59:51.411 ERROR 8276 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 18:59:51.415 ERROR 8276 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 18:59:51.423 ERROR 8276 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 18:59:51.427 ERROR 8276 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.ArithmeticException: / by zero
+	at com.springboot.logstash.Schedular.addinglogs(Schedular.java:21) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.16.jar:5.3.16]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_281]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_281]
+
+2022-03-08 18:59:53.277  INFO 8276 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-03-08 18:59:53.442  INFO 8276 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 18:59:53.442  WARN 8276 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 18:59:53.443 ERROR 8276 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 18:59:53.443 ERROR 8276 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 18:59:53.444 ERROR 8276 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 18:59:53.444 ERROR 8276 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.ArithmeticException: / by zero
+	at com.springboot.logstash.Schedular.addinglogs(Schedular.java:21) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.16.jar:5.3.16]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_281]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_281]
+
+2022-03-08 19:10:06.656  INFO 17200 --- [main] c.s.l.SpringBootLogstashApplication      : Starting SpringBootLogstashApplication using Java 1.8.0_281 on DESKTOP-SQ99E4A with PID 17200 (C:\Users\user\eclipse-workspace\spring-boot-logstash\target\classes started by user in C:\Users\user\eclipse-workspace\spring-boot-logstash)
+2022-03-08 19:10:06.660  INFO 17200 --- [main] c.s.l.SpringBootLogstashApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-03-08 19:10:07.792  INFO 17200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-08 19:10:07.807  INFO 17200 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-08 19:10:07.808  INFO 17200 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-08 19:10:07.903  INFO 17200 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-08 19:10:07.903  INFO 17200 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1170 ms
+2022-03-08 19:10:09.146  INFO 17200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-08 19:10:09.155  INFO 17200 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 19:10:09.155  WARN 17200 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 19:10:09.155 ERROR 17200 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 19:10:09.155 ERROR 17200 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 19:10:09.155 ERROR 17200 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 19:10:09.156 ERROR 17200 --- [scheduling-1] com.springboot.logstash.Schedular        : / by zero
+2022-03-08 19:10:09.158  INFO 17200 --- [main] c.s.l.SpringBootLogstashApplication      : Started SpringBootLogstashApplication in 3.026 seconds (JVM running for 4.071)
+2022-03-08 19:10:10.312  INFO 17200 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-03-08 19:10:40.289  INFO 15200 --- [main] c.s.l.SpringBootLogstashApplication      : Starting SpringBootLogstashApplication using Java 1.8.0_281 on DESKTOP-SQ99E4A with PID 15200 (C:\Users\user\eclipse-workspace\spring-boot-logstash\target\classes started by user in C:\Users\user\eclipse-workspace\spring-boot-logstash)
+2022-03-08 19:10:40.293  INFO 15200 --- [main] c.s.l.SpringBootLogstashApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-03-08 19:10:41.544  INFO 15200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-08 19:10:41.557  INFO 15200 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-08 19:10:41.557  INFO 15200 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-08 19:10:41.628  INFO 15200 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-08 19:10:41.629  INFO 15200 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1273 ms
+2022-03-08 19:10:42.060  INFO 15200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-08 19:10:42.070  INFO 15200 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 19:10:42.070  WARN 15200 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 19:10:42.070 ERROR 15200 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 19:10:42.070 ERROR 15200 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 19:10:42.070 ERROR 15200 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 19:10:42.070 ERROR 15200 --- [scheduling-1] com.springboot.logstash.Schedular        : / by zero
+2022-03-08 19:10:42.074  INFO 15200 --- [main] c.s.l.SpringBootLogstashApplication      : Started SpringBootLogstashApplication in 2.26 seconds (JVM running for 3.24)
+2022-03-08 19:10:44.085  INFO 15200 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 19:10:44.086  WARN 15200 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 19:10:44.087 ERROR 15200 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 19:10:44.088 ERROR 15200 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 19:10:44.088 ERROR 15200 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 19:10:44.089 ERROR 15200 --- [scheduling-1] com.springboot.logstash.Schedular        : / by zero
+2022-03-08 19:10:46.091  INFO 15200 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 19:10:46.093  WARN 15200 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 19:10:46.094 ERROR 15200 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 19:10:46.094 ERROR 15200 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 19:10:46.094 ERROR 15200 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 19:10:46.098 ERROR 15200 --- [scheduling-1] com.springboot.logstash.Schedular        : / by zero
+2022-03-08 19:10:47.233  INFO 15200 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-03-08 19:14:31.210  INFO 1748 --- [main] c.s.l.SpringBootLogstashApplication      : Starting SpringBootLogstashApplication using Java 1.8.0_281 on DESKTOP-SQ99E4A with PID 1748 (C:\Users\user\eclipse-workspace\spring-boot-logstash\target\classes started by user in C:\Users\user\eclipse-workspace\spring-boot-logstash)
+2022-03-08 19:14:31.215  INFO 1748 --- [main] c.s.l.SpringBootLogstashApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-03-08 19:14:32.489  INFO 1748 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-08 19:14:32.502  INFO 1748 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-08 19:14:32.503  INFO 1748 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-08 19:14:32.592  INFO 1748 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-08 19:14:32.592  INFO 1748 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1299 ms
+2022-03-08 19:14:33.082  INFO 1748 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-08 19:14:33.094  INFO 1748 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 19:14:33.094  WARN 1748 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 19:14:33.094 ERROR 1748 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 19:14:33.094 ERROR 1748 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 19:14:33.094 ERROR 1748 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 19:14:33.097  INFO 1748 --- [main] c.s.l.SpringBootLogstashApplication      : Started SpringBootLogstashApplication in 2.521 seconds (JVM running for 4.286)
+2022-03-08 19:14:33.100 ERROR 1748 --- [scheduling-1] com.springboot.logstash.Schedular        : Error!!
+
+java.lang.ArithmeticException: / by zero
+	at com.springboot.logstash.Schedular.addinglogs(Schedular.java:22) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) [spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.3.16.jar:5.3.16]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_281]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_281]
+
+2022-03-08 19:14:35.106  INFO 1748 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 19:14:35.107  WARN 1748 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 19:14:35.107 ERROR 1748 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 19:14:35.108 ERROR 1748 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 19:14:35.108 ERROR 1748 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 19:14:35.109 ERROR 1748 --- [scheduling-1] com.springboot.logstash.Schedular        : Error!!
+
+java.lang.ArithmeticException: / by zero
+	at com.springboot.logstash.Schedular.addinglogs(Schedular.java:22) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) [spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.3.16.jar:5.3.16]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_281]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_281]
+
+2022-03-08 19:14:37.123  INFO 1748 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 19:14:37.126  WARN 1748 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 19:14:37.127 ERROR 1748 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 19:14:37.129 ERROR 1748 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 19:14:37.129 ERROR 1748 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 19:14:37.130 ERROR 1748 --- [scheduling-1] com.springboot.logstash.Schedular        : Error!!
+
+java.lang.ArithmeticException: / by zero
+	at com.springboot.logstash.Schedular.addinglogs(Schedular.java:22) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) [spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.3.16.jar:5.3.16]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_281]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_281]
+
+2022-03-08 19:14:39.145  INFO 1748 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 19:14:39.146  WARN 1748 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 19:14:39.146 ERROR 1748 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 19:14:39.147 ERROR 1748 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 19:14:39.147 ERROR 1748 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 19:14:39.151 ERROR 1748 --- [scheduling-1] com.springboot.logstash.Schedular        : Error!!
+
+java.lang.ArithmeticException: / by zero
+	at com.springboot.logstash.Schedular.addinglogs(Schedular.java:22) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) [spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.3.16.jar:5.3.16]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_281]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_281]
+
+2022-03-08 19:14:41.161  INFO 1748 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 19:14:41.164  WARN 1748 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 19:14:41.165 ERROR 1748 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 19:14:41.166 ERROR 1748 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 19:14:41.167 ERROR 1748 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 19:14:41.168 ERROR 1748 --- [scheduling-1] com.springboot.logstash.Schedular        : Error!!
+
+java.lang.ArithmeticException: / by zero
+	at com.springboot.logstash.Schedular.addinglogs(Schedular.java:22) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) [spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.3.16.jar:5.3.16]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_281]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_281]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_281]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_281]
+
+2022-03-08 19:14:41.841  INFO 1748 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-03-08 19:15:14.727  INFO 10032 --- [main] c.s.l.SpringBootLogstashApplication      : Starting SpringBootLogstashApplication using Java 1.8.0_281 on DESKTOP-SQ99E4A with PID 10032 (C:\Users\user\eclipse-workspace\spring-boot-logstash\target\classes started by user in C:\Users\user\eclipse-workspace\spring-boot-logstash)
+2022-03-08 19:15:14.732  INFO 10032 --- [main] c.s.l.SpringBootLogstashApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-03-08 19:15:15.825  INFO 10032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-08 19:15:15.838  INFO 10032 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-08 19:15:15.838  INFO 10032 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-08 19:15:15.921  INFO 10032 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-08 19:15:15.922  INFO 10032 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1097 ms
+2022-03-08 19:15:16.401  INFO 10032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-08 19:15:16.412  INFO 10032 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 19:15:16.413  WARN 10032 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 19:15:16.413 ERROR 10032 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 19:15:16.413 ERROR 10032 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 19:15:16.413 ERROR 10032 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 19:15:16.415 ERROR 10032 --- [scheduling-1] com.springboot.logstash.Schedular        : Error!!
+2022-03-08 19:15:16.418  INFO 10032 --- [main] c.s.l.SpringBootLogstashApplication      : Started SpringBootLogstashApplication in 2.212 seconds (JVM running for 3.723)
+2022-03-08 19:15:18.420  INFO 10032 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 19:15:18.422  WARN 10032 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 19:15:18.423 ERROR 10032 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 19:15:18.425 ERROR 10032 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 19:15:18.426 ERROR 10032 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 19:15:18.427 ERROR 10032 --- [scheduling-1] com.springboot.logstash.Schedular        : Error!!
+2022-03-08 19:15:20.441  INFO 10032 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 19:15:20.443  WARN 10032 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 19:15:20.445 ERROR 10032 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 19:15:20.447 ERROR 10032 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 19:15:20.448 ERROR 10032 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 19:15:20.449 ERROR 10032 --- [scheduling-1] com.springboot.logstash.Schedular        : Error!!
+2022-03-08 19:15:22.457  INFO 10032 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 19:15:22.457  WARN 10032 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 19:15:22.457 ERROR 10032 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 19:15:22.457 ERROR 10032 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 19:15:22.457 ERROR 10032 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 19:15:22.458 ERROR 10032 --- [scheduling-1] com.springboot.logstash.Schedular        : Error!!
+2022-03-08 19:15:22.917  INFO 10032 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-03-08 19:15:41.441  INFO 16704 --- [main] c.s.l.SpringBootLogstashApplication      : Starting SpringBootLogstashApplication using Java 1.8.0_281 on DESKTOP-SQ99E4A with PID 16704 (C:\Users\user\eclipse-workspace\spring-boot-logstash\target\classes started by user in C:\Users\user\eclipse-workspace\spring-boot-logstash)
+2022-03-08 19:15:41.444  INFO 16704 --- [main] c.s.l.SpringBootLogstashApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-03-08 19:15:42.462  INFO 16704 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-08 19:15:42.474  INFO 16704 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-08 19:15:42.475  INFO 16704 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-08 19:15:42.557  INFO 16704 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-08 19:15:42.557  INFO 16704 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1037 ms
+2022-03-08 19:15:42.978  INFO 16704 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-03-08 19:15:42.988  INFO 16704 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 19:15:42.988  WARN 16704 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 19:15:42.988 ERROR 16704 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 19:15:42.989 ERROR 16704 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 19:15:42.989 ERROR 16704 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 19:15:42.989 ERROR 16704 --- [scheduling-1] com.springboot.logstash.Schedular        : Error!! java.lang.ArithmeticException: / by zero
+2022-03-08 19:15:42.992  INFO 16704 --- [main] c.s.l.SpringBootLogstashApplication      : Started SpringBootLogstashApplication in 2.457 seconds (JVM running for 3.716)
+2022-03-08 19:15:45.003  INFO 16704 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 19:15:45.006  WARN 16704 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 19:15:45.008 ERROR 16704 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 19:15:45.008 ERROR 16704 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 19:15:45.009 ERROR 16704 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 19:15:45.010 ERROR 16704 --- [scheduling-1] com.springboot.logstash.Schedular        : Error!! java.lang.ArithmeticException: / by zero
+2022-03-08 19:15:47.019  INFO 16704 --- [scheduling-1] com.springboot.logstash.Schedular        : Request Passed , statusCode : 200 
+2022-03-08 19:15:47.020  WARN 16704 --- [scheduling-1] com.springboot.logstash.Schedular        : Request has Warning , statusCode : 201 
+2022-03-08 19:15:47.020 ERROR 16704 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 400
+2022-03-08 19:15:47.020 ERROR 16704 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 404
+2022-03-08 19:15:47.021 ERROR 16704 --- [scheduling-1] com.springboot.logstash.Schedular        : Request not passed , status code: 500
+2022-03-08 19:15:47.021 ERROR 16704 --- [scheduling-1] com.springboot.logstash.Schedular        : Error!! java.lang.ArithmeticException: / by zero
+2022-03-08 19:15:48.395  INFO 16704 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
